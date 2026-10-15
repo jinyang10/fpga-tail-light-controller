@@ -1,6 +1,6 @@
 # FPGA Tail Light Controller
 
-[![Verify RTL](https://github.com/jinyang10/fpga-tail-light-controller/actions/workflows/verify.yml/badge.svg)](https://github.com/jinyang10/fpga-tail-light-controller/actions/workflows/verify.yml)
+[![Verify RTL](https://github.com/jinyang10/fpga-tail-light-controller/actions/workflows/verify.yml/badge.svg?branch=main)](https://github.com/jinyang10/fpga-tail-light-controller/actions/workflows/verify.yml)
 ![Verilog](https://img.shields.io/badge/RTL-Verilog-8756d9)
 ![Board](https://img.shields.io/badge/board-DE10--Lite-168b76)
 

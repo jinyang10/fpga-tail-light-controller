@@ -40,7 +40,7 @@ The [fitter summary](verification/quartus-fit.txt) and [timing summary](verifica
 
 These are internal synchronous-path results. The SDC excludes asynchronous button/switch inputs and LED/display outputs, which have no external capture clock. Reset recovery/removal is excluded; synchronized reset release is not implemented. The device uses preliminary timing models, so these results are not production sign-off.
 
-The build reports 21 warnings, including unused switches, the permanently off decimal point, missing drive/slew settings, preliminary device timing, a device I/O advisory, and tool configuration/license notices. None are hidden or counted as failures by the simulation workflow. The incomplete I/O warning concerns drive and slew settings; all 31 active design ports have explicit pin locations.
+The build reports 21 warnings, including unused switches, the permanently off decimal point, missing drive-strength settings, preliminary device timing, a device I/O advisory, and tool configuration/license notices. None are hidden or counted as failures by the simulation workflow. All 31 active design ports have explicit pin locations.
 
 ## Rebuild the preview
 
