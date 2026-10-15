@@ -1,0 +1,20 @@
+# Quartus and simulation output
+build/
+db/
+incremental_db/
+output_files/
+simulation/
+*.qws
+*.qdf
+*.bak
+*.rpt
+*.summary
+*.sof
+*.pof
+*.vcd
+*.wlf
+transcript
+vsim_stacktrace.vstf
+__pycache__/
+.DS_Store
+Thumbs.db

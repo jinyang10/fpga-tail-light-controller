@@ -86,4 +86,4 @@ This started as my EECS 2316 Lab 3 project. The portfolio version keeps the LED 
 
 The start synchronizer does not debounce the button. Reset release is asynchronous, and switch changes can briefly glitch the combinational LED output. This is an educational FPGA demo; physical-board validation of this repository revision is still pending.
 
-**Author: Jin Yang** Â· [GitHub](https://github.com/jinyang10)
+**Author: Jin Yang** · [GitHub](https://github.com/jinyang10)

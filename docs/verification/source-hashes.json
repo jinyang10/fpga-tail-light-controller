@@ -1,0 +1,7 @@
+{
+  "rtl/tail_light_controller.v": "869a6d85f8bba343d98d0b26704fa5724b4e29593d0cef0d6920a1a0384fcbea",
+  "tests/tail_light_tb.sv": "f6b098ea4c9a546ce43feeccf246c1a213cc039244a0b0a89bb5c8f004c67cc9",
+  "fpga/tail_light.qpf": "6492970a01b87d99375a3a564e002100565618df3e7250c4e7d27dd8ee7669dd",
+  "fpga/tail_light.qsf": "fc38e37d3e2c0776b2509f7a4ac02af92ac3365564f42c8e7353b6d86bc3aa4d",
+  "fpga/tail_light.sdc": "35c3542f9dd0cc7ea1dbbb4aab96fe09b62d67e09175c567a3c461416d627d60"
+}

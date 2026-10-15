@@ -1,0 +1,6 @@
+Copyright (c) 2026 Jin Yang. All rights reserved.
+
+This project began as EECS 2316 Lab 3. The LED sequence and board pin
+assignments were carried forward from the supplied local project.
+Vendor templates, course handouts, compiled bitstreams, and generated
+Quartus databases are not included.

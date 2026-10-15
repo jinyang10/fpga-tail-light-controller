@@ -1,0 +1,27 @@
+name: Verify RTL
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  simulation:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Icarus Verilog
+        run: sudo apt-get update && sudo apt-get install -y iverilog
+      - name: Run regression
+        run: python3 scripts/test.py
+      - name: Save waveform
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: simulation-waveform
+          path: build/iverilog/tail_light.vcd
+          if-no-files-found: ignore
